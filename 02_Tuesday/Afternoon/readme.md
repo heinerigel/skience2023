@@ -15,10 +15,9 @@ Three-component __seismic nodes__ are conquering the world these days as lightwe
 
 The notebooks provided for this afternoon's class are simple introductions how to handle seismic nodes, how to perform H/V spectral ratio analysis of ambient noise (mHVSR) recorded with seismic nodes using the Geopsy software (Whathelet et al. 2021). We'll  show the Skience2013 crowd:
 1. how to analyse seismic data using Geopsy manually and how to process the output data
-2. how to do the same exercise automatically using the Geopsy command line 
+2. how to do the same exercise automatically using the Geopsy command line and we'll open the discussion to more automatic solutions. 
 3. Excercise the steps in 1. and 2. on new data gathered in the Bayrischzell valley
 4. How to do a polarisation analysis of mHVSR data 
-and we'll open the discussion towards more automatic solutions by the Skience2013 crowd. 
 
 ## References:
 * Van Noten, K., Devleeschouwer, X., Goffin, C., Meyvis, B., Molron, J., Debacker, T.N. & Lecocq, T. 2022. Brussels’ bedrock paleorelief from borehole-controlled powerlaws linking polarised H/V resonance frequencies and sediment thickness. _Journal of Seismology_ 26, 35-55. DOI: https://doi.org/10.1007/s10950-021-10039-8 pdf: https://publi2-as.oma.be/record/5626/files/2022_VanNotenetal_HVSR_Powerlaw_Brussels.pdf 
