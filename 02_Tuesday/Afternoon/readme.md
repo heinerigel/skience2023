@@ -3,7 +3,8 @@
 
 ## Authors:
 * Koen Van Noten ([@KoenVanNoten](https://github.com/KoenVanNoten))
-* Thomas Lecocq ([@seismotom](https://github.com/ThomasLecocq)
+* Thomas Lecocq ([@seismotom](https://github.com/ThomasLecocq))
+* Martin Zeckra ([@marzeck](https://github.com/marzeck))
 
 ## Introduction:
 Three-component __seismic nodes__ are conquering the world these days as lightweight smart seismic sensors. SmartSolo 3D Nodes (https://smartsolo.com/cp.php?id=3) are easy to deploy, have long battery life (2-4 weeks), are modular to easily replace battery and are fastly charged. The picture below shows the modular design of the IGU-16HR 3C series where 3C sensors are installed on a standard battery pack (usually used with the 1C nodes). The tripod feet allow them to be used in urban settings. As they resemble to the Minions, we batised _data analysis with nodes_ as __Minionology__. We further refer to Zeckra et al. (submitted) to a technical introduction on the performance of the IGU-16HR 3C series. 
