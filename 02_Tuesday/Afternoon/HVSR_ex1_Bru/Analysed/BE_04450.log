@@ -1,0 +1,221 @@
+# HV LOG FORMAT RELEASE 1.0
+#
+# BEGIN COMMAND LINE ARGUMENTS
+#
+C:/Users/koenvn/Geopsy 3.3.4/bin/geopsy.exe  $*
+exit $?
+#
+# END COMMAND LINE ARGUMENTS
+#
+#
+# BEGIN SOFTWARE VERSION
+#
+  Qt                  5.12.3
+  QGpCoreTools        2.4.2 from 3.4.2
+      (commit 33d7a93616e30a3d511fa67ad3f5da9da1a4aac6)
+  QGpCoreMath         1.4.2 from 3.4.2
+      (commit 306e3c199829ace6cbde6b242503355428580d05)
+  GeopsyCore          4.4.2 from 3.4.2
+      (commit 583bacf54d7367d6c29796a28c8179b98d88e28a)
+  QGpGuiTools         2.4.2 from 3.4.2
+      (commit 478ff49d6d6ec28d92b21ec9bfcef9f5d343b065)
+  SciFigs             3.3.2 from 3.4.2
+      (commit cec1d051784e8ee1d9774230fb96c1bb0b618aa0)
+  QGpGuiMath          1.3.1 from 3.4.2
+      (commit 8e80e068f4f3b16a30e8fb8dff21177f25a58da6)
+  GeopsyGui           3.4.1 from 3.4.2
+      (commit 905aba82a1928b07b3fd61dec384b9448698c80b)
+  GeopsySLink         2.0.3 from 3.4.2
+      (commit 2f01f562d775a4ddcdfc6a3b388c2ecb0cbb3a9a)
+  GeopsySLinkGui      2.0.2 from 3.4.2
+      (commit f6e61f2761b9ab1fa13c821e2a94732db60abf4f)
+  geopsy              3.3.3 from 3.4.2
+      (commit fb3d54b85a28e6ba741794e0cb6666d0b25c0167)
+  geopsyfigs          1.0.2 from 3.4.2
+      (commit 33697385e465d0d0ec4344aba55058811e934918)
+  campbelltob3        1.0.1 from 3.4.2
+      (commit 6e12f8024f0a052e430878492367702311588147)
+  DinverCore          1.3.1 from 3.4.2
+      (commit 7a17c1522ca1f626c89f2c1e87759f6b4a9311d4)
+  QGpCoreWave         2.2.0 from 3.4.2
+      (commit 18e08f9fd358a9e504047ec288ca4ab71a7c9851)
+  QGpCompatibility    1.1.2 from 3.4.2
+      (commit 3e05f6333687b574d4a18fb4336decd9efbe3efa)
+  DinverDCCore        2.2.0 from 3.4.2
+      (commit 654cab13b392853128bb5fa90891ecf10b5c3f0c)
+  QGpCoreStat         1.2.2 from 3.4.2
+      (commit 4ed49581fb9dfbf824223fae61af336330486596)
+  ArrayCore           4.1.2 from 3.4.2
+      (commit 85e1ce3b5a43ddb8cc16df7c31094c7c98a82104)
+  QGpGuiWave          1.2.1 from 3.4.2
+      (commit 2889d6a23de9671c33c0ae088b33e537035df26f)
+  ArrayGui            1.3.0 from 3.4.2
+      (commit bb09428d0df9ad7ab7996d50f8ac067b450a9bec)
+  geopsyarray         3.2.4 from 3.4.2
+      (commit 243028ab672fff396c683ed677c1dd4a1cc6a99b)
+  geopsydamping       2.1.3 from 3.4.2
+      (commit 2be6cba7701efb6e8c1a20c940cffe08f04ffcd2)
+  HVCore              1.1.2 from 3.4.2
+      (commit a76eb646e633a11fe6b411d1112c55e3c9107de4)
+  HVGui               1.1.0 from 3.4.2
+      (commit a66df7fe63f6c9107cfffcd4fa86d4f9893fec16)
+  geopsyhv            4.0.2 from 3.4.2
+      (commit ecd96a31c8abadf86bcbae0dd02bb37935b26dc7)
+  geopsynr            1.1.1 from 3.4.2
+      (commit f149a70197f8622e594ecec09f55068ecabcfc33)
+  geopsyptmotion      2.0.3 from 3.4.2
+      (commit c82034566f860b11afdc973ca84ef0027af6cf95)
+  geopsyrefra         2.0.2 from 3.4.2
+      (commit 807393bf66c9762a914de2cbc8c43813d8ae4227)
+  geopsytfa           2.1.1 from 3.4.2
+      (commit b87f1cb860bedfd6fb8d0439e749dd7464b26a24)
+  hvtfa               2.1.3 from 3.4.2
+      (commit fa8612a089e30f0bd72192724ee1ebe5fb4080b5)
+  matfiles            1.0.3 from 3.4.2
+      (commit aa4bbdecc6f645ece0598270993e17766e4c7b32)
+  phaseit             1.0.2 from 3.4.2
+      (commit 266b229edcf7986948d6d3f3940a154229b45f91)
+#
+# END SOFTWARE VERSION
+#
+#
+# BEGIN SIGNAL LIST
+#
+[COMP 0]
+ [SIG 0] E:/SOLODATA/MartinGeoCamb/TouretTaxis/TouretTaxis_downsampled/453004450.1.2022.12.02.10.09.00.000.Z.miniseed at index 0
+[COMP 1]
+ [SIG 0] E:/SOLODATA/MartinGeoCamb/TouretTaxis/TouretTaxis_downsampled/453004450.1.2022.12.02.10.09.00.000.N.miniseed at index 0
+[COMP 2]
+ [SIG 0] E:/SOLODATA/MartinGeoCamb/TouretTaxis/TouretTaxis_downsampled/453004450.1.2022.12.02.10.09.00.000.E.miniseed at index 0
+#
+# END SIGNAL LIST
+#
+#
+# BEGIN PARAMETERS
+#
+# Version 0: all files generated with releases before 20170901 (default for input)
+PARAMETERS_VERSION=1
+# TYPEs:
+#   - Signal: from the start or to the end of signal (TEXT are useless)
+#   - Delta: a fixed duration counted from the start or the end (e.g. TEXT=1h).
+#   - Pick: from or to a time pick (TEXT=time pick name).
+#   - Absolute: from or to a fixed time (e.g. TEXT=20170314115338.00)
+FROM_TIME_TYPE=Signal
+FROM_TIME_TEXT=0s
+# TYPEs: Signal, Delta, Absolute
+TO_TIME_TYPE=Signal
+TO_TIME_TEXT=0s
+REFERENCE=
+COMMON_TIME_WINDOWS=false
+# TYPEs: Exactly, AtLeast, FrequencyDependent
+WINDOW_LENGTH_TYPE=Exactly
+WINDOW_MIN_LENGTH(s)=120
+WINDOW_MAX_LENGTH(s)=120
+WINDOW_MAX_COUNT=0
+# Length of time windows are adjusted to avoid a prime number of samples which
+# slows down the FFT computation. Usually a maximum prime 11 in the prime factorization
+# of the number of samples is a good compromise between the speed and the lenght inaccuracy
+# Leave as zero to allow any prime number factorization.
+WINDOW_MAXIMUM_PRIME_FACTOR=11
+BAD_SAMPLE_TOLERANCE (s)=0
+BAD_SAMPLE_GAP (s)=0
+WINDOW_OVERLAP (%)=50
+# TYPEs: NoSampleThreshold, RelativeSampleThreshold, AbsoluteSampleThreshold
+BAD_SAMPLE_THRESHOLD_TYPE=RelativeSampleThreshold
+BAD_SAMPLE_THRESHOLD_VALUE (%)=0.7
+ANTI-TRIGGERING_ON_RAW_SIGNAL (y/n)=n
+ANTI-TRIGGERING_ON_FILTERED_SIGNAL (y/n)=n
+# Start a time window for each seismic event available inside the time range.
+SEISMIC_EVENT_TRIGGER (y/n)=n
+SEISMIC_EVENT_DELAY (s)=-0.1
+WINDOW_TYPE=Tukey
+WINDOW_REVERSED=n
+WINDOW_ALPHA=0.1
+SMOOTHING_METHOD=Function
+SMOOTHING_WIDTH_TYPE=Proportional
+SMOOTHING_WIDTH=0.4
+# Describes the way values are summed: on a linear, log or inversed scale
+SMOOTHING_SCALE_TYPE=Linear
+SMOOTHING_WINDOW_TYPE=KonnoOhmachi
+SMOOTHING_WINDOW_REVERSED=n
+MINIMUM_FREQUENCY=0.2
+MAXIMUM_FREQUENCY=30
+# Either 'Linear', 'Log' or 'Inversed'
+SCALE_TYPE_FREQUENCY=Log
+# Number of samples is either set to a fixed value ('Count') or through a step between samples ('Step')'
+STEP_TYPE_FREQUENCY=Count
+SAMPLES_NUMBER_FREQUENCY=500
+# STEP=difference between two successive samples for 'linear' scales
+# STEP=ratio between two successive samples for 'log' scales
+# STEP=difference between two successive inversed samples for 'inversed' scales
+STEP_FREQUENCY=1.01007
+HIGH_PASS_FREQUENCY=0
+# Possible values for HORIZONTAL_COMPONENTS: Squared, Energy, Azimuth, Geometric
+HORIZONTAL_COMPONENTS=Squared
+# HORIZONTAL_AZIMUTH is used only when HORIZONTAL_COMPONENTS==Azimuth
+HORIZONTAL_AZIMUTH=0
+# Used only for rotated output
+ROTATION_STEP=10
+# Frequency domain window rejection (Cox et al. (2020, GJI)
+FREQUENCY_WINDOW_REJECTION_MINIMUM_FREQUENCY=0.0001
+FREQUENCY_WINDOW_REJECTION_MAXIMUM_FREQUENCY=5000
+FREQUENCY_WINDOW_REJECTION_STDDEV_FACTOR=2
+FREQUENCY_WINDOW_REJECTION_MAXIMUM_ITERATIONS=50
+#
+# END PARAMETERS
+#
+#
+# BEGIN WINDOWING LOG
+#
+Automatic windowing
+#
+# END WINDOWING LOG
+#
+#
+# BEGIN WINDOW LIST
+#
+# Number= 40
+# Start time 	 End Time 	 Window length
+20221202101017.870000	20221202101217.870000	120
+20221202101117.880000	20221202101317.880000	120
+20221202101217.890000	20221202101417.890000	120
+20221202101317.900000	20221202101517.900000	120
+20221202101417.910000	20221202101617.910000	120
+20221202101517.920000	20221202101717.920000	120
+20221202101617.930000	20221202101817.930000	120
+20221202101717.940000	20221202101917.940000	120
+20221202101817.950000	20221202102017.950000	120
+20221202101917.960000	20221202102117.960000	120
+20221202102017.970000	20221202102217.970000	120
+20221202102117.980000	20221202102317.980000	120
+20221202102217.990000	20221202102417.990000	120
+20221202102318.000000	20221202102518.000000	120
+20221202102418.010000	20221202102618.010000	120
+20221202102518.020000	20221202102718.020000	120
+20221202102618.030000	20221202102818.030000	120
+20221202103218.090000	20221202103418.090000	120
+20221202103318.100000	20221202103518.100000	120
+20221202103418.110000	20221202103618.110000	120
+20221202103518.120000	20221202103718.120000	120
+20221202103750.190000	20221202103950.190000	120
+20221202103850.200000	20221202104050.200000	120
+20221202103950.210000	20221202104150.210000	120
+20221202104050.220000	20221202104250.220000	120
+20221202104150.230000	20221202104350.230000	120
+20221202104250.240000	20221202104450.240000	120
+20221202104350.250000	20221202104550.250000	120
+20221202104450.260000	20221202104650.260000	120
+20221202104550.270000	20221202104750.270000	120
+20221202104650.280000	20221202104850.280000	120
+20221202104750.290000	20221202104950.290000	120
+20221202104850.300000	20221202105050.300000	120
+20221202104950.310000	20221202105150.310000	120
+20221202105050.320000	20221202105250.320000	120
+20221202105150.330000	20221202105350.330000	120
+20221202105250.340000	20221202105450.340000	120
+20221202105350.350000	20221202105550.350000	120
+20221202105617.560000	20221202105817.560000	120
+20221202105717.570000	20221202105917.570000	120
+#
+# END WINDOW LIST
+#
