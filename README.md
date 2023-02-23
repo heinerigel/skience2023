@@ -35,6 +35,8 @@ https://www.skience.de/2023
    
    (skience23) $ ` qopen-runtests `
    
+   (skience23) $ ` msnoise utils test `
+   
 5) To eventually delete the environment again type: 
 
     ` conda env remove -name skience23 `
