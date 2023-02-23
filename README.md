@@ -11,7 +11,7 @@ https://www.skience.de/2023
 
 Anaconda3 has to be installed for this to work!
 
-1) Download the __skience23.yaml__ file from this repository! This file specifies all required packages for the environment.
+1) Download the [__skience23.yaml__](https://raw.githubusercontent.com/heinerigel/skience2023/main/skience23.yaml) file from this repository! This file specifies all required packages for the environment. Warning: make sure the content of the file is correct and not raw html!
 
 2) Use conda to create an environment: 
   
