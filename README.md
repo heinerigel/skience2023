@@ -44,6 +44,8 @@ https://www.skience.de/2023
 A quick explanation on conda environment setup with yaml files can also be found here: 
 https://medium.com/@balance1150/how-to-build-a-conda-environment-through-a-yaml-file-db185acf5d22
 
+If you have issues with the setup, please share the error messages on Mattermost -> Channel "Installation - Software Issues" !
+
 ## Software Setup 
 On Tuesday we will use __Geopsy__. **Either** download the software on: https://www.geopsy.org/download.php. Select the platform you need (Windows, Linux, Max) and hit the green carton box icon to download Geopsy:  <img src="https://github.com/heinerigel/skience2023/blob/main/02_Tuesday/Afternoon/Figures/Geopsy%20download.png" width=30></img> 
 __OR__ download Geopsy from the links below. No installation needed, just unpack the zip folder and place it in any document folder.
