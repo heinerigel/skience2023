@@ -43,3 +43,13 @@ https://www.skience.de/2023
 
 A quick explanation on conda environment setup with yaml files can also be found here: 
 https://medium.com/@balance1150/how-to-build-a-conda-environment-through-a-yaml-file-db185acf5d22
+
+## Setup of Software 
+On Tuesday we will use Geopsy. Download the software on: Geopsy: https://www.geopsy.org/download.php
+
+Instruction: Select the platform you need (Windows, Linux, Max) and hit the green carton box icon to download Geopsy. No installation needed, just unpack the zip folder and place it in any document folder.
+ 
+Version required: 
+Windows Geopsy 3.4.2: https://www.geopsy.org/download/archives/geopsypack-win64-3.4.2.zip 
+Linux Geopsy 3.4.2: https://www.geopsy.org/download/archives/geopsypack-src-3.4.2.tar.gz 
+Mac: Geopsy 3.3.6 (3.4 not available for download):  https://www.geopsy.org/download/archives/geopsypack-mac-bigsur-3.3.6.dmg 
