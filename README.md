@@ -37,7 +37,7 @@ https://www.skience.de/2023
    
    (skience23) $ ` msnoise utils test `
    
-5) To eventually delete the environment again type: 
+5) To eventually delete the environment again type (after the workshop, of course):
 
     ` conda env remove -name skience23 `
 
