@@ -49,7 +49,7 @@ On Tuesday we will use __Geopsy__. Download the software on: Geopsy: https://www
 
 __Instruction__: Select the platform you need (Windows, Linux, Max) and hit the green carton box icon to download Geopsy. No installation needed, just unpack the zip folder and place it in any document folder.
 <p align="center">
-  <img src="https://github.com/heinerigel/skience2023/blob/main/02_Tuesday/Afternoon/Figures/Geopsy%20download.png" width=200></img>
+  <img src="https://github.com/heinerigel/skience2023/blob/main/02_Tuesday/Afternoon/Figures/Geopsy%20download.png" width=50></img>
 </p>
  
 Version required: 
