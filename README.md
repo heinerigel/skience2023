@@ -45,7 +45,7 @@ A quick explanation on conda environment setup with yaml files can also be found
 https://medium.com/@balance1150/how-to-build-a-conda-environment-through-a-yaml-file-db185acf5d22
 
 ## Software Setup 
-On Tuesday we will use __Geopsy__. Download the software on: Geopsy: https://www.geopsy.org/download.php
+On Tuesday we will use __Geopsy__. Download the software on: https://www.geopsy.org/download.php
 
 __Instruction__: Select the platform you need (Windows, Linux, Max) and hit the green carton box icon to download Geopsy. No installation needed, just unpack the zip folder and place it in any document folder.
 <p align="center">
