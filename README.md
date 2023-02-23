@@ -48,6 +48,9 @@ https://medium.com/@balance1150/how-to-build-a-conda-environment-through-a-yaml-
 On Tuesday we will use __Geopsy__. Download the software on: Geopsy: https://www.geopsy.org/download.php
 
 __Instruction__: Select the platform you need (Windows, Linux, Max) and hit the green carton box icon to download Geopsy. No installation needed, just unpack the zip folder and place it in any document folder.
+<p align="center">
+  <img src="https://github.com/heinerigel/skience2023/blob/main/02_Tuesday/Afternoon/Figures/Geopsy%20download.png" width=200></img>
+</p>
  
 Version required: 
 * Windows Geopsy 3.4.2: https://www.geopsy.org/download/archives/geopsypack-win64-3.4.2.zip 
