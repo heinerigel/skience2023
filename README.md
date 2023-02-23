@@ -29,7 +29,11 @@ https://www.skience.de/2023
    
    ` (skience23) $ `  
 
-4) Test the environment using: 
+5) Install one missing msnoise dependency: 
+  
+   (skience23) $ ` conda install -c conda-forge pytables `
+   
+7) Test the environment using: 
    
    (skience23) $ ` obspy-runtests `
    
@@ -37,7 +41,7 @@ https://www.skience.de/2023
    
    (skience23) $ ` msnoise utils test `
    
-5) To eventually delete the environment again type (after the workshop, of course):
+6) To eventually delete the environment again type (after the workshop, of course):
 
     ` conda env remove -name skience23 `
 
