@@ -1,7 +1,8 @@
+import os.path
 from obspy import read
 
 # example file: ../data/waveforms/38443535/APL.CI.HNN..2019.185.182759.38443535.ms
-DATA = '../data/waveforms/{}/{}.{}.{}.{}.*.ms'
+DATA = os.path.join('..', 'data', 'waveforms', '{}/{}.{}.{}.{}.*.ms')
 
 
 def get_data(network, station, location, channel, starttime, endtime, event):
