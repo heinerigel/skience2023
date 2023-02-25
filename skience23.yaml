@@ -22,6 +22,7 @@ dependencies:
   - netcdf4
   - cmasher
   - xarray
+  - pytables
   - llvmlite
   - numba
   - git
