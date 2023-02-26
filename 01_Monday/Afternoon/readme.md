@@ -3,6 +3,7 @@
 
 ## Authors:
 * Thomas Lecocq ([@seismotom](https://github.com/ThomasLecocq))
-
+* MSNoise users & "contributors"
 ## Introduction:
 We Love Noise!
+
