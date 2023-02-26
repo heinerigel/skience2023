@@ -1,0 +1,79 @@
+FROM jupyter/minimal-notebook:python-3.10
+#ARG JUPYTERHUB_VERSION=2.3.1
+
+MAINTAINER Iris Christadler <christadler@geophysik.uni-muenchen.de
+
+RUN python3 -m pip install jupyter notebook nbclassic
+
+# add conda-forge channel and move it to top of channel list
+RUN conda install -c conda-forge --yes 'python=3.10'
+RUN conda install -c conda-forge --yes cartopy 
+RUN conda install -c conda-forge --yes folium
+RUN conda install -c conda-forge --yes ipython
+#RUN conda install -c conda-forge --yes jupyter 
+RUN conda install -c conda-forge --yes 'msnoise=1.6'
+RUN conda install -c conda-forge --yes 'sqlalchemy<2.0'
+RUN conda install -c conda-forge --yes 'obspy=1.4'
+RUN conda install -c conda-forge --yes pandas 
+RUN conda install -c conda-forge --yes pdbpp
+RUN conda install -c conda-forge --yes pycwt
+RUN conda install -c conda-forge --yes pytest
+RUN conda install -c conda-forge --yes pytest-json-report
+RUN conda install -c conda-forge --yes statsmodels
+RUN conda install -c conda-forge --yes tqdm
+RUN conda install -c conda-forge --yes netcdf4
+RUN conda install -c conda-forge --yes cmasher
+RUN conda install -c conda-forge --yes xarray
+RUN conda install -c conda-forge --yes pytables
+RUN conda install -c conda-forge --yes llvmlite
+RUN conda install -c conda-forge --yes numba
+RUN conda install -c conda-forge --yes git
+
+RUN python3 -m pip install 'obspycsv>=0.7'
+RUN python3 -m pip install 'qopen>=4.3'
+RUN python3 -m pip install git+https://github.com/ROBelgium/MSNoise.git
+RUN python3 -m pip install dynamic_yaml
+RUN python3 -m pip install disba
+
+#RUN pip3 install --no-cache pytest pytest-json-report
+#RUN conda install -c conda-forge cartopy_offlinedata --yes
+#RUN conda install -c conda-forge nbgitpuller --yes
+
+# Install rate and state toolkit
+RUN pip install https://github.com/jrleeman/rsfmodel/archive/master.zip
+
+# Install the jupyter dashboards.
+RUN pip install jupyter_dashboards && \
+  jupyter dashboards quick-setup --sys-prefix && \
+  jupyter nbextension enable jupyter_dashboards --py --sys-prefix
+
+# Install the code folding plugin.
+RUN conda install --yes -c conda-forge jupyter_contrib_nbextensions && \
+  jupyter contrib nbextension install --user && \
+  jupyter nbextension enable codefolding/main
+
+# install ipympl
+RUN python3 -m pip install ipympl
+RUN python3 -m pip install nodejs
+RUN jupyter labextension install @jupyter-widgets/jupyterlab-manager
+RUN jupyter labextension install jupyter-matplotlib
+
+# copy notebooks
+ADD --chown=jovyan:users 01_Monday /home/jovyan/01_Monday/
+ADD --chown=jovyan:users 02_Tuesday /home/jovyan/02_Tuesday/
+ADD --chown=jovyan:users 03_Wednesday /home/jovyan/03_Wednesday/
+ADD --chown=jovyan:users 04_Thursday /home/jovyan/04_Thursday/
+ADD --chown=jovyan:users 05_Friday /home/jovyan/05_Friday/
+
+#RUN rm -rf /home/jovyan/work
+
+# Set a default backend for matplotlib!
+# Attention! This is the wrong matplotlib backend, it will only work in notebook mode not lab!
+RUN mkdir -p ~/.config/matplotlib && touch ~/.config/matplotlib/matplotlibrc && printf "\nbackend: nbagg\n" >> ~/.config/matplotlib/matplotlibrc
+
+# Build the font cache so its already done in the notebooks.
+RUN python -c "from matplotlib.font_manager import FontManager; FontManager()"
+
+# Ignore all Pythonwarnings to hide them from the user
+#ENV PYTHONWARNINGS ignore
+

@@ -1,0 +1,35 @@
+# Install environment with
+# conda env create -f skience23.yaml
+name: skience23
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - cartopy
+  - folium
+  - ipython
+  - jupyter
+  - msnoise=1.6
+  - sqlalchemy<2.0
+  - obspy=1.4
+  - pandas
+  - pdbpp
+  - pycwt
+  - pytest
+  - pytest-json-report
+  - statsmodels
+  - tqdm
+  - netcdf4
+  - cmasher
+  - xarray
+  - pytables
+  - llvmlite
+  - numba
+  - git
+  - pip
+  - pip:
+    - obspycsv>=0.7
+    - qopen>=4.3
+    - git+https://github.com/ROBelgium/MSNoise.git
+    - dynamic_yaml
+    - disba
