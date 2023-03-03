@@ -1,0 +1,31 @@
+params:
+  network : "BE" #"HC"
+  station : "UCC" #"KNDR"
+  station_lat : 50.797 #35.2348
+  station_lon : 4.36 #23.6248
+  rhos : 2600.0 # kg/m³
+  beta : 2800.0 # m/s
+  Rg : 1800.0 # m/s
+  g : 9.81 # gravity          in m/s^2
+  rhow : 1026 # density of water in kg/m^3
+  Q : 300.0 #more than one Q value in the notebook
+  Re : 4.0e7/(2*np.pi) # earth radius in m 
+  work_dir : "/home/raph/PycharmProjects/skience2023/04_Thursday/Afternoon"
+  P : 1
+
+files:
+  noise_source_term : ! "{params.work_dir}/DATA/Rayleigh_source.txt"
+  distance_file : ! "{params.work_dir}/DATA/distance_to_{params.station}.csv"
+  depth : ! "{params.work_dir}/DATA/ww3.GLOB-30M_dpt.nc"
+  p2l_ref : ""
+  p2l_noref : ""
+  p2l_dir : ! "{params.work_dir}/DATA/P2L/2021/FIELD_NC/"
+  
+download:
+  sismo_path : "ifremer/ww3/PROJECT/SISMO/" 
+  year : 2021 # one year at the time for now
+  months : [10]
+  p2l_save : "/home/raph/WORK/WAVEWATCH/P2L" # Local save Directory  
+  
+  
+  
